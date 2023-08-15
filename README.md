@@ -1,11 +1,13 @@
 Alguns codigos em C no colab
 
 Para executar C no Colab utilize:
+
 %%writefile C.c
 
 %%shell
 
 gcc C.c -o output
+
 ./output
 
 E para executar C++ utilize:
@@ -15,4 +17,5 @@ E para executar C++ utilize:
 %%shell
 
 g++ Cpp.cpp -o output2
+
 ./output2
